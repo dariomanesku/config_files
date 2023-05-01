@@ -1,0 +1,181 @@
+*termName         : xterm-256color
+*iconName         : Terminal
+*eightBitInput    : false
+*faceName         : Monospace
+*cursorBlink      : true
+*cursorOffTime    : 500
+*cursorOnTime     : 500
+*cursorUnderLine  : false
+*geometry         : 999x99
+
+xterm*faceSize    : 9
+!*metaSendsEscape : true
+
+URxvt*jumpScroll  : true
+URxvt*skipScroll  : true
+URxvt*letterSpace : -1
+
+*urlLauncher     : firefox
+*scrollBar       : false
+*scrollBar_right : true
+*scrollColor     : #000000
+*borderless      : 1
+!*fading          : 20
+!*fadeColor       : #000000
+
+*foreground   : #d7d7d7
+!*background   : #262626
+*background   : #202020
+*cursorColor  : #ffaf00
+*color0       : #303030
+*color8       : #303030
+*color1       : #ff5f5f
+*color9       : #ff5f5f
+!*color2       : #afd787 << green bg on blue font. unreadable.
+*color2       : #96d05e
+*color10      : #afd787
+*color3       : #d7d7af
+*color11      : #d7d7af
+*color4       : #1f7494
+*color12      : #509fbb
+*color5       : #d7a0d7
+*color13      : #d7a0d7
+*color6       : #87d7af
+*color14      : #87d7af
+*color7       : #d7d7d7
+*color15      : #d7d7d7
+*colorBD      : #afafdf
+*colorUL      : #dfdfaf
+
+!*font         : -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1
+!*boldFont     : -misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-1
+!*font         : -misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
+!*boldFont     : -misc-fixed-bold-r-normal--14-130-75-75-c-70-iso8859-1
+!*font         : 8x13
+!*boldFont     : 8x13bold
+!*font         : 9x15
+!*boldFont     : 9x15bold
+!*font         : lucidasanstypewriter-8
+!*boldFont     : lucidasanstypewriter-bold-8
+!*font         : lucidasanstypewriter-10
+!*boldFont     : lucidasanstypewriter-bold-10
+!*font         : -sony-fixed-medium-r-normal--16-120-100-100-c-80-iso8859-1
+!*boldFont     : -sony-fixed-medium-r-normal--16-120-100-100-c-80-iso8859-1
+
+!Xft.autohint: 0
+!Xft.lcdfilter: lcddefault
+!Xft.hintstyle: hintslight
+!Xft.hinting: 1
+!Xft.antialias: 1
+!Xft.rgba: rgb
+
+!xft.dpi:        96
+!xft.antialias:  true
+!xft.rgba:       rgb
+!xft.hinting:    true
+!xft.hintstyle:  hintfull
+
+!URxvt.font:     xft:liberation mono:size=9
+!URxvt.boldFont: xft:liberation mono:bold:size=9
+!URxvt.font:     xft:Liberation Mono:pixelsize=14:antialias=true
+!URxvt.boldFont: xft:Liberation Mono:pixelsize=14:antialias=true:bold
+!URxvt.font:     xft:DejaVu Sans Mono:pixelsize=13:antialias=true:autohint=true
+!URxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=13:antialias=true:autohint=true:bold
+!URxvt.font:     xft:Ubuntu Mono:pixelsize=17:antialias=true
+!URxvt.boldFont: xft:Ubuntu Mono:pixelsize=17:antialias=true:bold
+URxvt.font:     xft:Liberation Mono:pixelsize=13:antialias=true
+URxvt.boldFont: xft:Liberation Mono:pixelsize=13:antialias=true:bold
+
+URxvt.keysym.M-C-1: command:\033]710;xft:Liberation Mono:pixelsize=14:antialias=true:\007\033]711;xft:Liberation Mono:pixelsize=14:antialias=true:bold\007
+URxvt.keysym.M-C-2: command:\033]710;xft:Liberation Mono:pixelsize=13:antialias=true:\007\033]711;xft:Liberation Mono:pixelsize=13:antialias=true:bold\007
+URxvt.keysym.M-C-3: command:\033]710;xft:Liberation Mono:pixelsize=12:antialias=true:\007\033]711;xft:Liberation Mono:pixelsize=12:antialias=true:bold\007
+URxvt.keysym.M-C-4: command:\033]710;xft:DejaVu Sans Mono:pixelsize=14:antialias=true:\007\033]711;xft:DejaVu Sans Mono:pixelsize=14:antialias=true:bold\007
+URxvt.keysym.M-C-5: command:\033]710;xft:DejaVu Sans Mono:pixelsize=13:antialias=true:\007\033]711;xft:DejaVu Sans Mono:pixelsize=13:antialias=true:bold\007
+URxvt.keysym.M-C-6: command:\033]710;xft:Ubuntu Mono:pixelsize=17:antialias=true:\007\033]711;xft:Ubuntu Mono:pixelsize=17:antialias=true:bold\007
+URxvt.keysym.M-C-7: command:\033]710;xft:Ubuntu Mono:pixelsize=15:antialias=true:\007\033]711;xft:Ubuntu Mono:pixelsize=15:antialias=true:bold\007
+URxvt.keysym.M-C-8: command:\033]710;xft:Nimbus Mono PS:pixelsize=14:antialias=true:\007\033]711;xft:Nimbus Mono PS:pixelsize=14:antialias=true:bold\007
+URxvt.keysym.M-C-9: command:\033]710;xft:Noto Sans Mono:pixelsize=14:antialias=true:\007\033]711;xft:Noto Sans Mono:pixelsize=14:antialias=true:bold\007
+!URxvt.keysym.M-C-9: command:\033]710;xft:Tlwg Mono:pixelsize=14:antialias=true:\007\033]711;xft:Tlwg Mono:pixelsize=14:antialias=true:bold\007
+!URxvt.keysym.M-C-9: command:\033]710;xft:Mitra:pixelsize=14:antialias=true:\007\033]711;xft:Mitra:pixelsize=14:antialias=true:bold\007
+
+!lucidasanstypewriter-10
+!lucidasanstypewriter-10
+!lucidasanstypewriter-12
+!lucidasanstypewriter-12
+!lucidasanstypewriter-14
+!lucidasanstypewriter-14
+!lucidasanstypewriter-18
+!lucidasanstypewriter-18
+!lucidasanstypewriter-24
+!lucidasanstypewriter-24
+!lucidasanstypewriter-8
+!lucidasanstypewriter-8
+!lucidasanstypewriter-bold-10
+!lucidasanstypewriter-bold-10
+!lucidasanstypewriter-bold-12
+!lucidasanstypewriter-bold-12
+!lucidasanstypewriter-bold-14
+!lucidasanstypewriter-bold-14
+!lucidasanstypewriter-bold-18
+!lucidasanstypewriter-bold-18
+!lucidasanstypewriter-bold-24
+!lucidasanstypewriter-bold-24
+!lucidasanstypewriter-bold-8
+!lucidasanstypewriter-bold-8
+
+!-adobe-helvetica-medium-r-normal--20-140-100-100-p-100-iso10646-1                                                                                                                                        [1938/1938]
+!-adobe-helvetica-medium-r-normal--20-140-100-100-p-100-iso8859-1
+!-adobe-helvetica-medium-r-normal--20-140-100-100-p-100-iso8859-1
+!-adobe-helvetica-medium-r-normal--24-240-75-75-p-130-iso10646-1
+!-adobe-helvetica-medium-r-normal--24-240-75-75-p-130-iso10646-1
+!-adobe-helvetica-medium-r-normal--24-240-75-75-p-130-iso8859-1
+!-adobe-helvetica-medium-r-normal--24-240-75-75-p-130-iso8859-1
+!-adobe-helvetica-medium-r-normal--25-180-100-100-p-130-iso10646-1
+!-adobe-helvetica-medium-r-normal--25-180-100-100-p-130-iso10646-1
+!-adobe-helvetica-medium-r-normal--25-180-100-100-p-130-iso8859-1
+!-adobe-helvetica-medium-r-normal--25-180-100-100-p-130-iso8859-1
+!-adobe-helvetica-medium-r-normal--34-240-100-100-p-176-iso10646-1
+!-adobe-helvetica-medium-r-normal--34-240-100-100-p-176-iso10646-1
+!-adobe-helvetica-medium-r-normal--34-240-100-100-p-176-iso8859-1
+!-adobe-helvetica-medium-r-normal--34-240-100-100-p-176-iso8859-1
+!-adobe-helvetica-medium-r-normal--8-80-75-75-p-46-iso10646-1
+!-adobe-helvetica-medium-r-normal--8-80-75-75-p-46-iso10646-1
+!-adobe-helvetica-medium-r-normal--8-80-75-75-p-46-iso8859-1
+!-adobe-helvetica-medium-r-normal--8-80-75-75-p-46-iso8859-1
+
+!*font         : lucidasanstypewriter-10
+!*boldFont     : lucidasanstypewriter-bold-10
+
+!*font             :    -misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
+!*boldFont         :    -misc-fixed-bold-r-normal--14-130-75-75-c-70-iso8859-1
+
+! Default (available by default):
+!**font             : -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+!**boldFont         : -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+!*font             : -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1
+!*boldFont         : -misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-1
+
+! Lucida font (apt-get install xfonts-75dpi xfonts-100dpi):
+!**font             :  -b&h-lucidatypewriter-medium-r-normal-sans-12-120-75-75-m-70-iso10646-1
+!**boldFont         :  -b&h-lucidatypewriter-medium-r-normal-sans-12-120-75-75-m-70-iso10646-1
+!**font             :  -b&h-lucidatypewriter-medium-r-normal-sans-14-140-75-75-m-70-iso10646-1
+!**boldFont         :  -b&h-lucidatypewriter-medium-r-normal-sans-14-140-75-75-m-70-iso10646-1
+
+!**font             : -b&h-lucidatypewriter-medium-r-normal-sans-10-100-75-75-m-60-iso10646-1
+!**boldFont         : -b&h-lucidatypewriter-medium-r-normal-sans-10-100-75-75-m-60-iso10646-1
+
+!**font             : -b&h-lucidatypewriter-medium-r-normal-sans-10-100-75-75-m-60-iso8859-1
+!**boldFont         : -b&h-lucidatypewriter-medium-r-normal-sans-10-100-75-75-m-60-iso8859-1
+!
+!**font             : -b&h-lucidatypewriter-medium-r-normal-sans-11-80-100-100-m-70-iso10646-1
+!**boldFont         : -b&h-lucidatypewriter-medium-r-normal-sans-11-80-100-100-m-70-iso10646-1
+!
+!**font             : -b&h-lucidatypewriter-medium-r-normal-sans-11-80-100-100-m-70-iso8859-1
+!**boldFont         : -b&h-lucidatypewriter-medium-r-normal-sans-11-80-100-100-m-70-iso8859-1
+!
+!**font             : -b&h-lucidatypewriter-medium-r-normal-sans-12-120-75-75-m-70-iso10646-1
+!**boldFont         : -b&h-lucidatypewriter-medium-r-normal-sans-12-120-75-75-m-70-iso10646-1
+!
+!**font             : -b&h-lucidatypewriter-medium-r-normal-sans-12-120-75-75-m-70-iso8859-1
+!**boldFont         : -b&h-lucidatypewriter-medium-r-normal-sans-12-120-75-75-m-70-iso8859-1
+
