@@ -23,29 +23,31 @@ URxvt*letterSpace : -1
 !*fading          : 20
 !*fadeColor       : #000000
 
-*foreground   : #d7d7d7
-!*background   : #262626
-*background   : #202020
-*cursorColor  : #ffaf00
-*color0       : #303030
-*color8       : #303030
-*color1       : #ff5f5f
-*color9       : #ff5f5f
-!*color2       : #afd787 << green bg on blue font. unreadable.
-*color2       : #96d05e
-*color10      : #afd787
-*color3       : #d7d7af
-*color11      : #d7d7af
-*color4       : #1f7494
-*color12      : #509fbb
-*color5       : #d7a0d7
-*color13      : #d7a0d7
-*color6       : #87d7af
-*color14      : #87d7af
-*color7       : #d7d7d7
-*color15      : #d7d7d7
-*colorBD      : #afafdf
-*colorUL      : #dfdfaf
+!*foreground   : #d7d7d7
+!!*background   : #262626
+!*background   : #202020
+!*cursorColor  : #ffaf00
+!*color0       : #303030
+!*color8       : #303030
+!*color1       : #ff5f5f
+!*color9       : #ff5f5f
+!!*color2       : #afd787 << green bg on blue font. unreadable.
+!*color2       : #96d05e
+!*color10      : #afd787
+!*color3       : #d7d7af
+!*color11      : #d7d7af
+!*color4       : #1f7494
+!*color12      : #509fbb
+!*color5       : #d7a0d7
+!*color13      : #d7a0d7
+!*color6       : #87d7af
+!*color14      : #87d7af
+!*color7       : #d7d7d7
+!*color15      : #d7d7d7
+!*colorBD      : #afafdf
+!*colorUL      : #dfdfaf
+
+ command:\033]4;0;#303030\007\033]4;1;#ff5f5f\007\033]4;2;#96d05e\007\033]4;3;#d7d7af\007\033]4;4;#1f7494\007\033]4;5;#d7a0d7\007\033]4;6;#87d7af\007\033]4;7;#d7d7d7\007\033]4;8;#303030\007\033]4;9;#ff5f5f\007\033]4;10;#afd787\007\033]4;11;#d7d7af\007\033]4;12;#509fbb\007\033]4;13;#d7a0d7\007\033]4;14;#87d7af\007\033]4;15;#d7d7d7\007\033]10;#d7d7d7\007\033]11;#202020\007\033]12;#ffaf00\007\033]13;#ffffff\007\033]17;#363983\007\033]19;#f2f2f2\007\033]706;#ffffff\007
 
 !*font         : -misc-fixed-medium-r-normal--15-140-75-75-c-90-iso8859-1
 !*boldFont     : -misc-fixed-bold-r-normal--15-140-75-75-c-90-iso8859-1
@@ -83,20 +85,25 @@ URxvt*letterSpace : -1
 !URxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=13:antialias=true:autohint=true:bold
 !URxvt.font:     xft:Ubuntu Mono:pixelsize=17:antialias=true
 !URxvt.boldFont: xft:Ubuntu Mono:pixelsize=17:antialias=true:bold
-URxvt.font:     xft:Liberation Mono:pixelsize=13:antialias=true
-URxvt.boldFont: xft:Liberation Mono:pixelsize=13:antialias=true:bold
+URxvt.font:     xft:Liberation Mono:pixelsize=14:antialias=true
+URxvt.boldFont: xft:Liberation Mono:pixelsize=14:antialias=true:bold
 
 URxvt.keysym.M-C-1: command:\033]710;xft:Liberation Mono:pixelsize=14:antialias=true:\007\033]711;xft:Liberation Mono:pixelsize=14:antialias=true:bold\007
 URxvt.keysym.M-C-2: command:\033]710;xft:Liberation Mono:pixelsize=13:antialias=true:\007\033]711;xft:Liberation Mono:pixelsize=13:antialias=true:bold\007
 URxvt.keysym.M-C-3: command:\033]710;xft:Liberation Mono:pixelsize=12:antialias=true:\007\033]711;xft:Liberation Mono:pixelsize=12:antialias=true:bold\007
-URxvt.keysym.M-C-4: command:\033]710;xft:DejaVu Sans Mono:pixelsize=14:antialias=true:\007\033]711;xft:DejaVu Sans Mono:pixelsize=14:antialias=true:bold\007
-URxvt.keysym.M-C-5: command:\033]710;xft:DejaVu Sans Mono:pixelsize=13:antialias=true:\007\033]711;xft:DejaVu Sans Mono:pixelsize=13:antialias=true:bold\007
-URxvt.keysym.M-C-6: command:\033]710;xft:Ubuntu Mono:pixelsize=17:antialias=true:\007\033]711;xft:Ubuntu Mono:pixelsize=17:antialias=true:bold\007
-URxvt.keysym.M-C-7: command:\033]710;xft:Ubuntu Mono:pixelsize=15:antialias=true:\007\033]711;xft:Ubuntu Mono:pixelsize=15:antialias=true:bold\007
-URxvt.keysym.M-C-8: command:\033]710;xft:Nimbus Mono PS:pixelsize=14:antialias=true:\007\033]711;xft:Nimbus Mono PS:pixelsize=14:antialias=true:bold\007
-URxvt.keysym.M-C-9: command:\033]710;xft:Noto Sans Mono:pixelsize=14:antialias=true:\007\033]711;xft:Noto Sans Mono:pixelsize=14:antialias=true:bold\007
+URxvt.keysym.M-C-4: command:\033]4;0;#303030\007\033]4;1;#ff5f5f\007\033]4;2;#96d05e\007\033]4;3;#d7d7af\007\033]4;4;#1f7494\007\033]4;5;#d7a0d7\007\033]4;6;#87d7af\007\033]4;7;#d7d7d7\007\033]4;8;#303030\007\033]4;9;#ff5f5f\007\033]4;10;#afd787\007\033]4;11;#d7d7af\007\033]4;12;#509fbb\007\033]4;13;#d7a0d7\007\033]4;14;#87d7af\007\033]4;15;#d7d7d7\007\033]10;#d7d7d7\007\033]11;#202020\007\033]12;#ffaf00\007\033]13;#ffffff\007\033]17;#363983\007\033]19;#f2f2f2\007\033]706;#ffffff\007
+URxvt.keysym.M-C-5: command:\033]4;0;#ffffff\007\033]4;1;#cc0000\007\033]4;2;#4e9a06\007\033]4;3;#c4a000\007\033]4;4;#3465a4\007\033]4;5;#75507b\007\033]4;6;#06989a\007\033]4;7;#d3d7cf\007\033]4;8;#555753\007\033]4;9;#ef2929\007\033]4;10;#8ae234\007\033]4;11;#fce94f\007\033]4;12;#729fcf\007\033]4;13;#ad7fa8\007\033]4;14;#34e2e2\007\033]4;15;#eeeeec\007\033]10;#222222\007\033]11;#ffffff\007\033]12;#ffaf00\007\033]13;#ffffff\007\033]17;#b5d5ff\007\033]19;#000000\007\033]706;#000000\007
+URxvt.keysym.M-C-6: command:\033]4;0;#073642\007\033]4;1;#dc322f\007\033]4;2;#859900\007\033]4;3;#b58900\007\033]4;4;#268bd2\007\033]4;5;#d33682\007\033]4;6;#2aa198\007\033]4;7;#eee8d5\007\033]4;8;#002b36\007\033]4;9;#cb4b16\007\033]4;10;#586e75\007\033]4;11;#657b83\007\033]4;12;#839496\007\033]4;13;#6c71c4\007\033]4;14;#93a1a1\007\033]4;15;#fdf6e3\007\033]10;#657b83\007\033]11;#fdf6e3\007\033]12;#657b83\007\033]13;#eee8d5\007\033]17;#eee8d5\007\033]19;#586e75\007\033]706;#586e75\007
+!URxvt.keysym.M-C-6: command:\033]710;xft:Ubuntu Mono:pixelsize=17:antialias=true:\007\033]711;xft:Ubuntu Mono:pixelsize=17:antialias=true:bold\007
+!URxvt.keysym.M-C-7: command:\033]710;xft:Ubuntu Mono:pixelsize=15:antialias=true:\007\033]711;xft:Ubuntu Mono:pixelsize=15:antialias=true:bold\007
+!URxvt.keysym.M-C-8: command:\033]710;xft:DejaVu Sans Mono:pixelsize=14:antialias=true:\007\033]711;xft:DejaVu Sans Mono:pixelsize=14:antialias=true:bold\007
+!URxvt.keysym.M-C-9: command:\033]710;xft:DejaVu Sans Mono:pixelsize=13:antialias=true:\007\033]711;xft:DejaVu Sans Mono:pixelsize=13:antialias=true:bold\007
 !URxvt.keysym.M-C-9: command:\033]710;xft:Tlwg Mono:pixelsize=14:antialias=true:\007\033]711;xft:Tlwg Mono:pixelsize=14:antialias=true:bold\007
 !URxvt.keysym.M-C-9: command:\033]710;xft:Mitra:pixelsize=14:antialias=true:\007\033]711;xft:Mitra:pixelsize=14:antialias=true:bold\007
+
+URxvt*keysym.Control-Shift-F10: command:\033]11;#2c2c2c\007\033]10;#dcdcdc\007\033]12;#dcdcdc\007\033]4;0;#3f3f3f\007\033]4;1;#705050\007\033]4;2;#60b48a\007\033]4;3;#dfaf8f\007\033]4;4;#9ab8d7\007\033]4;5;#dc8cc3\007\033]4;6;#8cd0d3\007\033]4;7;#dcdcdc\007\033]4;8;#709080\007\033]4;9;#dca3a3\007\033]4;10;#72d5a3\007\033]4;11;#f0dfaf\007\033]4;12;#94bff3\007\033]4;13;#ec93d3\007\033]4;14;#93e0e3\007\033]4;15;#ffffff\007
+URxvt*keysym.Control-Shift-F11: command:\033]11;#000000\007\033]10;#ffffff\007\033]12;#ffffff\007\033]4;0;#000000\007\033]4;1;#cc0000\007\033]4;2;#4e9a06\007\033]4;3;#c4a000\007\033]4;4;#3465a4\007\033]4;5;#75507b\007\033]4;6;#06989a\007\033]4;7;#d3d7cf\007\033]4;8;#555753\007\033]4;9;#ef2929\007\033]4;10;#8ae234\007\033]4;11;#fce94f\007\033]4;12;#729fcf\007\033]4;13;#ad7fa8\007\033]4;14;#34e2e2\007\033]4;15;#eeeeec\007
+URxvt*keysym.Control-Shift-F12: command:\033]11;#000000\007\033]10;#a9a9a9\007\033]12;#a9a9a9\007\033]4;0;#000000\007\033]4;1;#cc0000\007\033]4;2;#00cc00\007\033]4;3;#cccc00\007\033]4;4;#0000cc\007\033]4;5;#cc00cc\007\033]4;6;#00cccc\007\033]4;7;#cccccc\007\033]4;8;#555555\007\033]4;9;#ff0000\007\033]4;10;#00ff00\007\033]4;11;#ffff00\007\033]4;12;#0000ff\007\033]4;13;#ff00ff\007\033]4;14;#00ffff\007\033]4;15;#ffffff\007
 
 !lucidasanstypewriter-10
 !lucidasanstypewriter-10
